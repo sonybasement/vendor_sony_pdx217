@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Copyright (C) 2020 Sony Mobile Communications Inc.
+  All rights, including trade secret rights, reserved.
+-->
+<znr_platform_info>
+    <noise cameras="SMC12BX1 SUN08BS0 SIP12BG0 SEM12BS9 SEM12BS8 SUNHQCN1">
+<!--        <rec_info actuator="000000000000000000000000"> -->  <!-- Front cam Physical -->
+        <rec_info actuator="000000002000000000000000000000000000000000000000">  <!-- Front cam Physical -->
+            <noise_param sample_rate="44100">znr_p_front_stereo_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_p_front_stereo_48k.tbl</noise_param>
+        </rec_info>
+<!--        <rec_info actuator="000000002201110010000000"> -->  <!-- Wide cam Logical -->
+        <rec_info actuator="000000000000000022201000111000001100000000000000">  <!-- Wide cam Logical -->
+            <noise_param sample_rate="44100">znr_wide_stereo_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_wide_stereo_48k.tbl</noise_param>
+        </rec_info>
+<!--        <rec_info actuator="000000002201000000000000"> -->  <!-- Wide cam Physical -->
+        <rec_info actuator="000000000000000022201000000000000000000000000000">  <!-- Wide cam Physical -->
+            <noise_param sample_rate="44100">znr_p_wide_stereo_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_p_wide_stereo_48k.tbl</noise_param>
+        </rec_info>
+<!--        <rec_info actuator="000000001101220010000000"> -->  <!-- Tele cam Logical -->
+        <rec_info actuator="000000000000000011101000222000001100000000000000">  <!-- Tele cam Logical -->
+            <noise_param sample_rate="44100">znr_tele_stereo_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_tele_stereo_48k.tbl</noise_param>
+        </rec_info>
+<!--        <rec_info actuator="000000000000220000000000"> -->  <!-- Tele cam Physical -->
+        <rec_info actuator="000000000000000000000000222000000000000000000000">  <!-- Tele cam Physical -->
+            <noise_param sample_rate="44100">znr_p_tele_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_p_tele_48k.tbl</noise_param>
+        </rec_info>
+<!--        <rec_info actuator="000000001101110020000000"> -->  <!-- UWide cam Logical -->
+        <rec_info actuator="000000000000000011101000111000002200000000000000">  <!-- UWide cam Logical -->
+            <noise_param sample_rate="44100">znr_uwide_stereo_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_uwide_stereo_48k.tbl</noise_param>
+        </rec_info>
+<!--        <rec_info actuator="000000000000000020000000"> -->  <!-- UWide cam Physical -->
+        <rec_info actuator="000000000000000000000000000000002200000000000000">  <!-- UWide cam Physical -->
+            <noise_param sample_rate="44100">znr_p_uwide_48k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_p_uwide_48k.tbl</noise_param>
+        </rec_info>
+        <rec_info actuator="default">
+            <noise_param sample_rate="44100">znr_default_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_default_48k.tbl</noise_param>
+        </rec_info>
+    </noise>
+    <noise cameras="default">
+        <rec_info actuator="default">
+            <noise_param sample_rate="44100">znr_default_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_default_48k.tbl</noise_param>
+        </rec_info>
+    </noise>
+</znr_platform_info>
